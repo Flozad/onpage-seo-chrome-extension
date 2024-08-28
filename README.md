@@ -1,37 +1,40 @@
-# Copy All URLs Chrome Extension
+# OnPage SEO Analyzer 🌐
 
-This Chrome extension allows users to copy the URLs of all open tabs or selected tabs, and paste them to open new tabs. It's based on the original **CopyAllURLs** extension, with enhancements and custom features.
+![OnPage SEO Analyzer](https://github.com/Flozad/onpage-seo-chrome-extension/assets/logo.png) <!-- Replace with actual logo link -->
 
-## Features
+**OnPage SEO Analyzer** is a lightweight, privacy-focused Chrome extension that helps you analyze and optimize web pages for SEO, without compromising your data. It's fast, easy to use, and 100% open-source. No ads, no tracking—just pure SEO goodness.
 
-- Copy URLs in different formats: text, HTML, JSON, custom.
-- Paste URLs to open them in new tabs.
-- Option to include all Chrome windows.
-- Set default actions and MIME types.
-- Customizable settings for more control.
+## Features 🚀
 
-## Installation
+- **SEO Analysis**: Get a detailed summary of on-page SEO factors including title, description, keywords, headers, images, links, and more.
+- **No Tracking**: We respect your privacy. No data is collected or sent to any server. All processing is done locally on your device.
+- **No Ads**: Enjoy a clean and ad-free user experience.
+- **Open-Source**: The extension’s source code is available on GitHub, allowing full transparency and the ability to contribute.
+- **Fast and Lightweight**: The extension is designed to be quick and efficient, providing insights in real-time as you browse.
+- **Easy Setup**: Install the extension from the Chrome Web Store and start analyzing pages immediately with a single click.
+- **Internationalization**: Supports multiple languages to cater to a global audience.
 
-1. Clone or download this repository.
-2. Open `chrome://extensions/` in your Chrome browser.
-3. Enable "Developer mode" in the top right corner.
-4. Click "Load unpacked" and select the directory where you cloned/downloaded this repository.
+## Installation 🛠️
 
-## Usage
+1. **Clone the repo**: 
+   ```bash
+   git clone https://github.com/Flozad/onpage-seo-chrome-extension.git
 
-- Click the extension icon in the Chrome toolbar.
-- Use the popup to copy or paste URLs.
-- Go to the "Options" page to customize settings.
+2. **Load the extension in Chrome**:
+    - Open Chrome (or any Chromium-based browser) and navigate to `chrome://extensions`.
+    - Enable "Developer mode" in the top right corner.
+    - Click "Load unpacked."
+    - Select the `seo-onpage` directory.
+    - The extension should now be loaded.
 
-## Contributing
+3. **Start using the extension**:
+    - Click the extension icon in the Chrome toolbar.
+    - The extension will analyze the current page and display the results.
 
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+## Contributing 🤝
 
-## License
+We welcome contributions to improve the extension! If you have suggestions or find any issues, please open an issue or submit a pull request on our [GitHub repository](https://github.com/Flozad/onpage-seo-chrome-extension).
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+## License 📜
 
-## Acknowledgments
-
-- Inspired by the original [CopyAllURLs](https://github.com/vincepare/CopyAllUrl_Chrome) Chrome extension.
-- Built by [Lozard](https://github.com/Flozad).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
